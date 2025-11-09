@@ -14,8 +14,8 @@
 
 }
 .Footer ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap:wrap;
     gap: 15px;
     margin-bottom:30px;
     list-style: none;
